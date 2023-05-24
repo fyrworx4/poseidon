@@ -6,7 +6,9 @@ COPY [".", "."]
 
 RUN pwd
 
-RUN ls
+RUN ls -la
+
+RUN ls -la /MythicMeta/MythicContainer
 
 RUN make build
 
